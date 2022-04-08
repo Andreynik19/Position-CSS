@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    padding: 50px 0;
+}
+
+main {
+    padding: 50px 0;
+}
+
+header {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    /* чтобы ссылки шли в одну строчку*/
+}
+
+.service {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    z-index: -1;
+}
+
+.service a {
+    color: white;
+}
+
+.popup {
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px #000;
+}
+
+.close {
+    position: absolute;
+    /*выкидываем элемент из потока и цепляем его координатами за родителя*/
+    top: 3px;
+    right: 3px;
+    padding: 5px;
+    background: #fff;
+    color: #000;
+}
+
+.left {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}

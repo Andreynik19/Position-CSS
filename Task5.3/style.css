@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #7CDAEF;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    padding-top: 104px;
+}
+
+.blue {
+    max-width: 905px;
+    background: #0E497EB2;
+    position: relative;
+    right: -500px;
+    padding: 96px 75px 175px;
+    font-family: "Play";
+    color: #fff;
+    z-index: 2;
+}
+
+.grass {
+    background-image: url(./images/grass.png);
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 50px;
+}
+
+.path1 {
+    position: absolute;
+    top: 50px;
+    right: 330px;
+    z-index: 3;
+}
+
+.path2 {
+    position: absolute;
+    top: 250px;
+    left: 320px;
+}
+
+.path3 {
+    position: absolute;
+    top: 554px;
+    right: 330px;
+    z-index: 1;
+}
